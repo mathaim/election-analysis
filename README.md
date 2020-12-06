@@ -17,7 +17,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
-# Election-Audit Results
+## Election-Audit Results
 The analysis of the election shows that:
 - There were 369,711 votes cast in the election.
 
@@ -45,6 +45,9 @@ The winner of the election was:
 Members of the Election Commision,
 
 I believe this code can be altered to serve as an efficient method of determining other election results. 
+
 In an election, it is important there is as little room for human error as possible. We must be able to understand data like which candidates ran, how many votes they recieved, who won, and voter turnout. Automating the process means we can understand answers to these questions more quickly and accurately. 
+
 Using this Python script, we can find the answers to these questions beyond the US Congressional preccinct in Colorado. We can use it to determine the outcome of senatorial districts and local elections throughout the country. The only modifications required would be to change the file_to_load, and the indexing of columns we want to count if candidate_name and county_name are not in the order they are here. 
+
 So long as other data is collected, there are endless opportunities for data exploration. If we created a "Race" column in the csv, we could quickly understand the racial breakdown of voters for each candidate. If there were a column where socioeconomic status was reported, we could look into voting trends among different class brackets. I strongly encourage you to consider allowing us to automate this process in order to ensure a quick, accurate, and detailed understanding of voting trends and election results.
